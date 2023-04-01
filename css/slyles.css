@@ -510,6 +510,7 @@ body {
   transform: translate(-50%, -50%);
   width: 408px;
   height: 576px;
+  padding: 24px;
   background-color: var(--text-white-background);
   transition: transform var(--timing-function);
 }
@@ -535,6 +536,69 @@ body {
 .modal-close-btn:focus {
   fill: var(--text-white-background);
   background-color: var(--ocean-pressed-state);
+}
+
+.modal-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--navy-blue-dark);
+  padding-top: 48px;
+  margin-bottom: 16px;
+}
+
+.modal-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding-left: 38px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  outline: none;
+}
+
+.modal-input:hover,
+.modal-input:focus {
+  border: 1px solid var(--iris-primary-brand);
+  border-radius: 4px;
+}
+
+.modal-label-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--light-slate-subtle-text);
+}
+
+.modal-textarea {
+  width: 100%;
+  height: 120px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  resize: none;
+  padding-left: 16px;
+  padding-top: 8px;
+  outline: none;
+}
+
+.modal-textarea:hover,
+.modal-textarea:focus {
+  border: 1px solid var(--iris-primary-brand);
+  border-radius: 4px;
+}
+
+.modal-send-btn {
+  width: 169px;
+  height: 56px;
+  background-color: var(--iris-primary-brand);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--text-white-background);
+  border-color: var(--iris-primary-brand);
 }
 
 /**--------------- Portfolio.html ---------------**/
