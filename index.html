@@ -460,7 +460,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -515,14 +515,16 @@
               </svg>
             </div>
           </div>
+          <div class="modal-field">
+            <label for="user-comment" class="modal-label-text">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-textarea"
+              placeholder="Text input"
+            ></textarea>
+          </div>
 
-          <label for="user-comment" class="modal-label-text">Comment</label>
-          <textarea
-            name="user-comment"
-            id="user-comment"
-            class="modal-textarea"
-            placeholder="Text input"
-          ></textarea>
           <div class="modal-field">
             <input
               type="checkbox"
