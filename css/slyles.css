@@ -588,7 +588,7 @@ body {
 }
 
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0);
+  transform: translate(-50%, -50%) scale(1.2);
 }
 
 .modal {
@@ -601,7 +601,6 @@ body {
   padding: 24px;
   background-color: #fcfcfc;
   transition: transform var(--timing-function);
-  transform: translate(-50%, -50%) scale(1.2);
 }
 
 .modal-close-btn {
